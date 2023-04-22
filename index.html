@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
-    <p>test</p>
-    <p>test</p>
-    <p>test</p>
+  </head>
+  <body>
+    <div class="bodyError"></div>
+    <header class="header">
+        <div class="searchCont center">
+            <input class="search" placeholder="user login..." />
+            <img class="getBTN" src="./img/search.png">
+        </div>
 
-    <script>
-        console.log(1);
-    </script>
-</body>
+    </header>
+    <div class="spin">
+      
+      <img
+        class="img hidden"
+        src="https://www.freeiconspng.com/uploads/spinner-icon-0.gif"
+        alt=""
+      />
+    </div>
+    <div class="lists"></div>
+    <button class="clear">clear</button>
+    <script src="./data.js"></script>
+    <script src="index.js"></script>
+  </body>
 </html>
